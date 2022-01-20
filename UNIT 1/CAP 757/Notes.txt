@@ -1,0 +1,9 @@
+Project Files and Course Documents for react, bootstrap, HTML5, CSS3
+You can access all script files belonging to the applications we will make during the course by going to these links;
+https://github.com/OakAcademy/HTML-For-Everyone-Real-World-Coding-in-HTML
+https://github.com/OakAcademy/HTML-CSS-Code-and-Design-Websites-With-HTML-and-CSS
+https://github.com/OakAcademy/react-router/tree/master/react-router
+https://github.com/OakAcademy/blog-posts
+https://github.com/OakAcademy/hemisphere
+https://github.com/OakAcademy/first-app
+https://github.com/OakAcademy/image-list
