@@ -13,6 +13,6 @@ import java.util.Scanner;
 
         area=side*side;
         System.out.println("Area of Square "+ area);
-        
+        sc.close();
     }
 }
