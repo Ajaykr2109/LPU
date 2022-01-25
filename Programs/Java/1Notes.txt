@@ -1,3 +1,14 @@
 Wrapper Class:
 The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.
 The automatic conversion of primitive into an object is known as autoboxing and vice-versa unboxing.
+
+Expressions & Operators:
+
+class OperatorExample{
+public static void main(String args[]){
+int a=10;
+int b=10;
+System.out.println(a++ + ++a);//10+12=22
+System.out.println(b++ + b++);//10+11=21
+
+}}

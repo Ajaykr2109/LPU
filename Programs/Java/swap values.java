@@ -20,6 +20,7 @@ n2=n1-n2;
 n1=n1-n2;
 System.out.println("Num 1 = " + n1);
 System.out.println("Num 2 = " + n2);
+sc.close();
 }
 }
 
