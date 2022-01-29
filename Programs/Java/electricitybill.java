@@ -29,9 +29,6 @@ public class electricitybill {
         else{
             System.out.println("Error!!");
         }
-        
-        
-        
         sc.close();
     }
 }
