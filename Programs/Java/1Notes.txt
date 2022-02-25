@@ -25,3 +25,7 @@ An object is a real-world entity.
 An object is a runtime entity.
 The object is an entity which has state and behavior.
 The object is an instance of a class.
+
+Java Member Inner class
+
+A non-static class that is created inside a class but outside a method is called member inner class. It is also known as a regular inner class. It can be declared with access modifiers like public, default, private, and protected.
