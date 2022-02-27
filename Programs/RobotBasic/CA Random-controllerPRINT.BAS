@@ -2,6 +2,7 @@ Rectangle random(300),530,random(375),560,RED,RED
 Rectangle random(300),500,random(500),530,GREEN,GREEN
 Rectangle random(400),400,random(500),530,Blue,BLue
 Rectangle random(600),500,random(600),580,Yellow,Yellow
+Rectangle random(600),600,random(600),580,Yellow,Yellow
 while true
 readmouse x,y,b   //mouse position  
 readpixel x,y,c  //pixel color
