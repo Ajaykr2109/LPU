@@ -1,4 +1,4 @@
-package Java;
+
 
 import java.util.Scanner;
 
@@ -9,6 +9,7 @@ public class electricitybill {
         int units,bill;
         System.out.println("Enter the Units Consumed");
         units=sc.nextInt();
+        
 
         if(units<=100){
             bill=units*5;

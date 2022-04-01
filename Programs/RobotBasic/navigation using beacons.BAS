@@ -1,10 +1,10 @@
 rLocate 500, 100
-rspeed 4
+rspeed 2
 rInvisible red
 rectangle 400, 480, 450, 450, red, red
 rectangle 100, 180, 150, 150, blue, blue
 rectangle 600, 280, 650, 250, yellow, yellow
-rslip 50
+rslip 30
 repeat
 while !(rBeacon(red))
 rTurn 1
