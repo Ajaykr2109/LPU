@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Working </title>
+</head>
+<script>
+  function submit() {
+    alert("You are Registered successfully.!");
+  }
+</script>
+
+<body style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'">
+<fieldset>     
+  <center><h1><header>Workshop on PHP</header></h1></center>
+</fieldset>
+	<br>
+	<fieldset>
+
+		<h3>Registration Page</h3>
+		<form action="Thanks.html">
+  <div>
+<label for="name">Name: <span class="required">*</span> </label>
+    <input type="text" id="name" name="name" value="" placeholder="Your name" required="required" autofocus />
+  </div>
+  <br>
+  <div>
+<label for="email">Email Address: <span class="required">*</span> </label>
+    <input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required" />
+  </div>
+  <br>
+<div>
+<label for="regid">Registration ID <span class="required">*</span> </label>
+    <input type="text" id="reg" name="regid" value="" placeholder="118xxxxx" required="required" />
+  </div>
+			<br>
+<div>
+<label for="section">Section <span class="required">*</span> </label>
+    <input type="text" id="sec" name="section" value="" placeholder="D2xxx" required="required" />
+  </div>
+			
+  <br>
+	<div>
+    <label for="beginner">Beginner:</label>
+    <input type="checkbox" name="beginner" id="beginner">
+    <label for="intermidiate">Intermediate:</label>
+    <input type="checkbox" name="intermidiate" id="intermidiate">
+  </div>
+			
+  <div>
+    <h4>Choose specialisation</h4>
+    <label for="subject">Specialisation:</label>
+    <select id="subject" name="subject">
+      <option value="Hadoop">HTML</option>
+      <option value="Rapid Miner">JavaScript</option>
+      <option value="Cloudera">Bootstrap</option>
+    </select>
+  </div>
+  <br>
+  		
+</form>
+<button onclick="submit()">Submit</button>
+		
+		</fieldset>
+</body>
+</html>
+
+
